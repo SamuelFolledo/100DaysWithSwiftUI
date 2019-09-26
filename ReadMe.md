@@ -47,7 +47,29 @@
 - __Complex types: Summary__
 
 ### Day 3 - 9/25/2019 __Operators and Conditions__
+- __Arithmetic Operators__
+    - ```var result = 11 % 6 //11 divides into 6 once, leaving remainder 5.```
 
+- __Operator overloading__
+    - ```var result = true * 2 //is not valid```
+    - ```var resultArr = ["Red", "Green"] + ["Blue"] //is valid ```
+- __Compound assignment operators__
+- __Comparison operators__
+- __Conditions__
+    - you cannot compare a Double to an Integer
+- __Combining conditions__
+- __The ternary operator__
+- __Switch statements__
+    - Switch statements require some sort of value to check at the beginning.
+    - You can use fallthrough as many times as you want.
+    - Switch statements must be exhaustive in Swift, which means that all possible cases are catered for.
+    - Code from the following case will be run if you use fallthrough.
+        - By default Swift will stop executing code in a switch block once it reaches the end of a case that was matched.
+    
+- __Range operators__
+    - 
+- __Operators and conditions summary__
+    - 
 
 
 
