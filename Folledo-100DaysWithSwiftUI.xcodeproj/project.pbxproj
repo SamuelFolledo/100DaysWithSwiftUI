@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33FBFE0C233C886F0065776B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FBFE0B233C886F0065776B /* AppDelegate.swift */; };
+		33FBFE0E233C886F0065776B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FBFE0D233C886F0065776B /* SceneDelegate.swift */; };
+		33FBFE10233C886F0065776B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FBFE0F233C886F0065776B /* ContentView.swift */; };
+		33FBFE12233C886F0065776B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33FBFE11233C886F0065776B /* Assets.xcassets */; };
+		33FBFE15233C886F0065776B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33FBFE14233C886F0065776B /* Preview Assets.xcassets */; };
+		33FBFE18233C886F0065776B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33FBFE16233C886F0065776B /* LaunchScreen.storyboard */; };
+		33FBFE23233C88700065776B /* Folledo_100DaysWithSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FBFE22233C88700065776B /* Folledo_100DaysWithSwiftUITests.swift */; };
+		33FBFE2E233C88700065776B /* Folledo_100DaysWithSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FBFE2D233C88700065776B /* Folledo_100DaysWithSwiftUIUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33FBFE1F233C88700065776B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33FBFE00233C886F0065776B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33FBFE07233C886F0065776B;
+			remoteInfo = "Folledo-100DaysWithSwiftUI";
+		};
+		33FBFE2A233C88700065776B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33FBFE00233C886F0065776B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33FBFE07233C886F0065776B;
+			remoteInfo = "Folledo-100DaysWithSwiftUI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33FBFE08233C886F0065776B /* Folledo-100DaysWithSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Folledo-100DaysWithSwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33FBFE0B233C886F0065776B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33FBFE0D233C886F0065776B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		33FBFE0F233C886F0065776B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		33FBFE11233C886F0065776B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33FBFE14233C886F0065776B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		33FBFE17233C886F0065776B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33FBFE19233C886F0065776B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33FBFE1E233C88700065776B /* Folledo-100DaysWithSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Folledo-100DaysWithSwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33FBFE22233C88700065776B /* Folledo_100DaysWithSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Folledo_100DaysWithSwiftUITests.swift; sourceTree = "<group>"; };
+		33FBFE24233C88700065776B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33FBFE29233C88700065776B /* Folledo-100DaysWithSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Folledo-100DaysWithSwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33FBFE2D233C88700065776B /* Folledo_100DaysWithSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Folledo_100DaysWithSwiftUIUITests.swift; sourceTree = "<group>"; };
+		33FBFE2F233C88700065776B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33FBFE05233C886F0065776B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33FBFE1B233C88700065776B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33FBFE26233C88700065776B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33FBFDFF233C886F0065776B = {
+			isa = PBXGroup;
+			children = (
+				33FBFE0A233C886F0065776B /* Folledo-100DaysWithSwiftUI */,
+				33FBFE21233C88700065776B /* Folledo-100DaysWithSwiftUITests */,
+				33FBFE2C233C88700065776B /* Folledo-100DaysWithSwiftUIUITests */,
+				33FBFE09233C886F0065776B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33FBFE09233C886F0065776B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33FBFE08233C886F0065776B /* Folledo-100DaysWithSwiftUI.app */,
+				33FBFE1E233C88700065776B /* Folledo-100DaysWithSwiftUITests.xctest */,
+				33FBFE29233C88700065776B /* Folledo-100DaysWithSwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33FBFE0A233C886F0065776B /* Folledo-100DaysWithSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				33FBFE0B233C886F0065776B /* AppDelegate.swift */,
+				33FBFE0D233C886F0065776B /* SceneDelegate.swift */,
+				33FBFE0F233C886F0065776B /* ContentView.swift */,
+				33FBFE11233C886F0065776B /* Assets.xcassets */,
+				33FBFE16233C886F0065776B /* LaunchScreen.storyboard */,
+				33FBFE19233C886F0065776B /* Info.plist */,
+				33FBFE13233C886F0065776B /* Preview Content */,
+			);
+			path = "Folledo-100DaysWithSwiftUI";
+			sourceTree = "<group>";
+		};
+		33FBFE13233C886F0065776B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				33FBFE14233C886F0065776B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		33FBFE21233C88700065776B /* Folledo-100DaysWithSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33FBFE22233C88700065776B /* Folledo_100DaysWithSwiftUITests.swift */,
+				33FBFE24233C88700065776B /* Info.plist */,
+			);
+			path = "Folledo-100DaysWithSwiftUITests";
+			sourceTree = "<group>";
+		};
+		33FBFE2C233C88700065776B /* Folledo-100DaysWithSwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33FBFE2D233C88700065776B /* Folledo_100DaysWithSwiftUIUITests.swift */,
+				33FBFE2F233C88700065776B /* Info.plist */,
+			);
+			path = "Folledo-100DaysWithSwiftUIUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33FBFE07233C886F0065776B /* Folledo-100DaysWithSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33FBFE32233C88700065776B /* Build configuration list for PBXNativeTarget "Folledo-100DaysWithSwiftUI" */;
+			buildPhases = (
+				33FBFE04233C886F0065776B /* Sources */,
+				33FBFE05233C886F0065776B /* Frameworks */,
+				33FBFE06233C886F0065776B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Folledo-100DaysWithSwiftUI";
+			productName = "Folledo-100DaysWithSwiftUI";
+			productReference = 33FBFE08233C886F0065776B /* Folledo-100DaysWithSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33FBFE1D233C88700065776B /* Folledo-100DaysWithSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33FBFE35233C88700065776B /* Build configuration list for PBXNativeTarget "Folledo-100DaysWithSwiftUITests" */;
+			buildPhases = (
+				33FBFE1A233C88700065776B /* Sources */,
+				33FBFE1B233C88700065776B /* Frameworks */,
+				33FBFE1C233C88700065776B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33FBFE20233C88700065776B /* PBXTargetDependency */,
+			);
+			name = "Folledo-100DaysWithSwiftUITests";
+			productName = "Folledo-100DaysWithSwiftUITests";
+			productReference = 33FBFE1E233C88700065776B /* Folledo-100DaysWithSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33FBFE28233C88700065776B /* Folledo-100DaysWithSwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33FBFE38233C88700065776B /* Build configuration list for PBXNativeTarget "Folledo-100DaysWithSwiftUIUITests" */;
+			buildPhases = (
+				33FBFE25233C88700065776B /* Sources */,
+				33FBFE26233C88700065776B /* Frameworks */,
+				33FBFE27233C88700065776B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33FBFE2B233C88700065776B /* PBXTargetDependency */,
+			);
+			name = "Folledo-100DaysWithSwiftUIUITests";
+			productName = "Folledo-100DaysWithSwiftUIUITests";
+			productReference = 33FBFE29233C88700065776B /* Folledo-100DaysWithSwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33FBFE00233C886F0065776B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = SamuelFolledo;
+				TargetAttributes = {
+					33FBFE07233C886F0065776B = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					33FBFE1D233C88700065776B = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 33FBFE07233C886F0065776B;
+					};
+					33FBFE28233C88700065776B = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 33FBFE07233C886F0065776B;
+					};
+				};
+			};
+			buildConfigurationList = 33FBFE03233C886F0065776B /* Build configuration list for PBXProject "Folledo-100DaysWithSwiftUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33FBFDFF233C886F0065776B;
+			productRefGroup = 33FBFE09233C886F0065776B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33FBFE07233C886F0065776B /* Folledo-100DaysWithSwiftUI */,
+				33FBFE1D233C88700065776B /* Folledo-100DaysWithSwiftUITests */,
+				33FBFE28233C88700065776B /* Folledo-100DaysWithSwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33FBFE06233C886F0065776B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33FBFE18233C886F0065776B /* LaunchScreen.storyboard in Resources */,
+				33FBFE15233C886F0065776B /* Preview Assets.xcassets in Resources */,
+				33FBFE12233C886F0065776B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33FBFE1C233C88700065776B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33FBFE27233C88700065776B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33FBFE04233C886F0065776B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33FBFE0C233C886F0065776B /* AppDelegate.swift in Sources */,
+				33FBFE0E233C886F0065776B /* SceneDelegate.swift in Sources */,
+				33FBFE10233C886F0065776B /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33FBFE1A233C88700065776B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33FBFE23233C88700065776B /* Folledo_100DaysWithSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33FBFE25233C88700065776B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33FBFE2E233C88700065776B /* Folledo_100DaysWithSwiftUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33FBFE20233C88700065776B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33FBFE07233C886F0065776B /* Folledo-100DaysWithSwiftUI */;
+			targetProxy = 33FBFE1F233C88700065776B /* PBXContainerItemProxy */;
+		};
+		33FBFE2B233C88700065776B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33FBFE07233C886F0065776B /* Folledo-100DaysWithSwiftUI */;
+			targetProxy = 33FBFE2A233C88700065776B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33FBFE16233C886F0065776B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33FBFE17233C886F0065776B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33FBFE30233C88700065776B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		33FBFE31233C88700065776B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33FBFE33233C88700065776B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Folledo-100DaysWithSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 9NY68F4K3P;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Folledo-100DaysWithSwiftUI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SamuelFolledo.Folledo-100DaysWithSwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33FBFE34233C88700065776B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Folledo-100DaysWithSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 9NY68F4K3P;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Folledo-100DaysWithSwiftUI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SamuelFolledo.Folledo-100DaysWithSwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		33FBFE36233C88700065776B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9NY68F4K3P;
+				INFOPLIST_FILE = "Folledo-100DaysWithSwiftUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SamuelFolledo.Folledo-100DaysWithSwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Folledo-100DaysWithSwiftUI.app/Folledo-100DaysWithSwiftUI";
+			};
+			name = Debug;
+		};
+		33FBFE37233C88700065776B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9NY68F4K3P;
+				INFOPLIST_FILE = "Folledo-100DaysWithSwiftUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SamuelFolledo.Folledo-100DaysWithSwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Folledo-100DaysWithSwiftUI.app/Folledo-100DaysWithSwiftUI";
+			};
+			name = Release;
+		};
+		33FBFE39233C88700065776B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9NY68F4K3P;
+				INFOPLIST_FILE = "Folledo-100DaysWithSwiftUIUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SamuelFolledo.Folledo-100DaysWithSwiftUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Folledo-100DaysWithSwiftUI";
+			};
+			name = Debug;
+		};
+		33FBFE3A233C88700065776B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9NY68F4K3P;
+				INFOPLIST_FILE = "Folledo-100DaysWithSwiftUIUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SamuelFolledo.Folledo-100DaysWithSwiftUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Folledo-100DaysWithSwiftUI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33FBFE03233C886F0065776B /* Build configuration list for PBXProject "Folledo-100DaysWithSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33FBFE30233C88700065776B /* Debug */,
+				33FBFE31233C88700065776B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33FBFE32233C88700065776B /* Build configuration list for PBXNativeTarget "Folledo-100DaysWithSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33FBFE33233C88700065776B /* Debug */,
+				33FBFE34233C88700065776B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33FBFE35233C88700065776B /* Build configuration list for PBXNativeTarget "Folledo-100DaysWithSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33FBFE36233C88700065776B /* Debug */,
+				33FBFE37233C88700065776B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33FBFE38233C88700065776B /* Build configuration list for PBXNativeTarget "Folledo-100DaysWithSwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33FBFE39233C88700065776B /* Debug */,
+				33FBFE3A233C88700065776B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33FBFE00233C886F0065776B /* Project object */;
+}
