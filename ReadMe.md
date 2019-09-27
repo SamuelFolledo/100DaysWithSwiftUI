@@ -3,7 +3,7 @@
 
 ## Notes
 
-### Day 1 - 9/23/2019 __Simple Types__
+### Day 1 __Simple Types__ - 9/23/2019
 - Variables
 - Strings and Integers
 - Multi-line strings
@@ -12,7 +12,7 @@
 - Constants
 - Type annotations
 
-### Day 2 - 9/24/2019 __Complex Types__
+### Day 2 __Complex Types__ - 9/24/2019 
 - __Arrays__
 - __Sets__
 - __Tuples__
@@ -46,7 +46,7 @@
         - Raw values are optional
 - __Complex types: Summary__
 
-### Day 3 - 9/25/2019 __Operators and Conditions__
+### Day 3 __Operators and Conditions__ - 9/25/2019
 - __Arithmetic Operators__
     - ```var result = 11 % 6 //11 divides into 6 once, leaving remainder 5.```
 
@@ -69,6 +69,21 @@
     - ... and ..<
 - __Operators and conditions summary__
     - let passingGrade = 70...100 //is a valid code in Swift
+    
+### Day 4 __Looping__ - 9/26/2019
+- __For loops__
+    - ```var speeds = (65, 58, 72)
+        for speed in speeds {
+            print("You were driving at \(speed)km/h.")
+        } //You cannot loop over a tuple like this.```
+- __While loops__
+    - 
+- __Repeat loops__
+- __Exiting loops__
+- __Exiting multiple loops__
+- __Skipping items__
+- __Infinite loops__
+- __Looping: Summary__
 
 
 
