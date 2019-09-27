@@ -77,15 +77,25 @@
             print("You were driving at \(speed)km/h.")
         } //You cannot loop over a tuple like this.```
 - __While loops__
-    - 
 - __Repeat loops__
+    - like do-while loop from C++
 - __Exiting loops__
+    - break
 - __Exiting multiple loops__
+    - You can exit more than one loop at a time
+    - We use names rather than numbers for breaking out of a specific loops.
+    - You can embed one loop inside another
 - __Skipping items__
+    - Calling break skips the remainder of the current loop, but calling continue skips only the current item.
 - __Infinite loops__
 - __Looping: Summary__
-
-
+    - ```outer: for i in 1...10 { //example of naming and breaking from outer loop
+        for j in 1...10 {
+            let product = i * j
+            print("Product is \(product)")
+            break outer
+        }```
+    }
 
 
 ### References:
