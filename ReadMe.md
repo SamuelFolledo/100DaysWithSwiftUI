@@ -65,11 +65,10 @@
     - Switch statements must be exhaustive in Swift, which means that all possible cases are catered for.
     - Code from the following case will be run if you use fallthrough.
         - By default Swift will stop executing code in a switch block once it reaches the end of a case that was matched.
-    
-- __Range operators__
-    - 
+- __Range Operators__
+    - ... and ..<
 - __Operators and conditions summary__
-    - 
+    - let passingGrade = 70...100 //is a valid code in Swift
 
 
 
