@@ -3,7 +3,7 @@
 
 ## Notes
 
-### DAY 1 __Simple Types__ - 9/23/2019
+### [DAY 1 __Simple Types__](https://www.hackingwithswift.com/100/swiftui/1) - 9/23/2019
 - Variables
 - Strings and Integers
 - Multi-line strings
@@ -12,7 +12,7 @@
 - Constants
 - Type annotations
 
-### DAY 2 __Complex Types__ - 9/24/2019 
+### [DAY 2 __Complex Types__](https://www.hackingwithswift.com/100/swiftui/2) - 9/24/2019 
 - __Arrays__
 - __Sets__
 - __Tuples__
@@ -46,7 +46,7 @@
         - Raw values are optional
 - __Complex types: Summary__
 
-### DAY 3 __Operators and Conditions__ - 9/25/2019
+### [DAY 3 __Operators and Conditions__](https://www.hackingwithswift.com/100/swiftui/3) - 9/25/2019
 - __Arithmetic Operators__
     - ```var result = 11 % 6 //11 divides into 6 once, leaving remainder 5.```
 
@@ -70,7 +70,7 @@
 - __Operators and conditions summary__
     - let passingGrade = 70...100 //is a valid code in Swift
     
-### DAY 4 __Looping__ - 9/26/2019
+### [DAY 4 __Looping__](https://www.hackingwithswift.com/100/swiftui/4) - 9/26/2019
 - __For loops__
     - ```var speeds = (65, 58, 72)
         for speed in speeds {
@@ -97,7 +97,7 @@
         }```
     }
 
-### DAY 5 __Functions__ - 9/27/2019
+### [DAY 5 __Functions__](https://www.hackingwithswift.com/100/swiftui/5) - 9/27/2019
 - __Writing functions__
 - __Accepting parameters__
 - __Returning values__
@@ -174,10 +174,10 @@
 
 
 
-
+### [Glossary](https://www.hackingwithswift.com/glossary)
 
 ### References:
-Emphasis, aka italics, with *asterisks* or _underscores_.
-Strong emphasis, aka bold, with **asterisks** or __underscores__.
-Combined emphasis with **asterisks and _underscores_**.
-Strikethrough uses two tildes. ~~Scratch this.~~
+- Emphasis, aka italics, with *asterisks* or _underscores_.
+- Strong emphasis, aka bold, with **asterisks** or __underscores__.
+- Combined emphasis with **asterisks and _underscores_**.
+- Strikethrough uses two tildes. ~~Scratch this.~~
