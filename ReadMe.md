@@ -3,7 +3,7 @@
 
 ## Notes
 
-### Day 1 __Simple Types__ - 9/23/2019
+### DAY 1 __Simple Types__ - 9/23/2019
 - Variables
 - Strings and Integers
 - Multi-line strings
@@ -12,7 +12,7 @@
 - Constants
 - Type annotations
 
-### Day 2 __Complex Types__ - 9/24/2019 
+### DAY 2 __Complex Types__ - 9/24/2019 
 - __Arrays__
 - __Sets__
 - __Tuples__
@@ -46,7 +46,7 @@
         - Raw values are optional
 - __Complex types: Summary__
 
-### Day 3 __Operators and Conditions__ - 9/25/2019
+### DAY 3 __Operators and Conditions__ - 9/25/2019
 - __Arithmetic Operators__
     - ```var result = 11 % 6 //11 divides into 6 once, leaving remainder 5.```
 
@@ -70,7 +70,7 @@
 - __Operators and conditions summary__
     - let passingGrade = 70...100 //is a valid code in Swift
     
-### Day 4 __Looping__ - 9/26/2019
+### DAY 4 __Looping__ - 9/26/2019
 - __For loops__
     - ```var speeds = (65, 58, 72)
         for speed in speeds {
@@ -96,6 +96,84 @@
             break outer
         }```
     }
+
+### DAY 5 __Functions__ - 9/27/2019
+- __Writing functions__
+- __Accepting parameters__
+- __Returning values__
+- __Parameter labels__
+- __Omitting parameter labels__
+- __Default parameters__
+- __Variadic functions__
+- __Writing throwing functions__
+- __Running throwing functions__
+- __inout parameters__
+- __Functions: Summary__
+
+
+### DAY 6 __Closures__ - 
+- __Creating basic closures__
+- __Accepting parameters in a closure__
+- __Returning values from a closure__
+- __Closures as parameters__
+- __Trailing closure syntax__
+- __Using closures as parameters when they accept parameters__
+- __Using closures as parameters when they return values__
+- __Shorthand parameter names__
+- __Closures with multiple parameters__
+- __Returning closures from functions__
+- __Capturing values__
+- __Closures: Summary__
+
+### DAY 7 __Structs__ -
+- __Creating your own structs__
+- __Computed properties__
+- __Property observers__
+- __Methods__
+- __Mutating methods__
+- __Properties and methods of strings__
+- __Properties and methods of arrays__
+- __Initializers__
+- __Referring to the current instance__
+- __Lazy properties__
+- __Static properties and methods__
+- __Access control__
+- __Structs: Summary__
+
+### DAY 8 __Classes__ -
+- __Creating your own classes__
+- __Class inheritance__
+- __Overriding methods__
+- __Final classes__
+- __Copying objects__
+- __Deinitializers__
+- __Mutability__
+- __Classes: Summary__
+
+### DAY 9 __Protocols__ -
+- __Protocols__
+- __Protocol inheritance__
+- __Extensions__
+- __Protocol extensions__
+- __Protocol-oriented programming__
+- __Protocols and extensions: Summary__
+
+### DAY 10 __Optionals__ -
+- __Handling missing data__
+- __Unwrapping optionals__
+- __Unwrapping with guard__
+- __Force unwrapping__
+- __Implicitly unwrapped optionals__
+- __Nil coalescing__
+- __Optional chaining__
+- __Optional try__
+- __Failable initializers__
+- __Typecasting__
+- __Optionals: Summary__
+
+
+
+
 
 
 ### References:
